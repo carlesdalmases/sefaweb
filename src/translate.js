@@ -120,6 +120,9 @@ TRANSLATES.prototype.load_translates = function()
 	this.set_translates('GUI','ca','Guilleries-Savassona');
 	this.set_translates('GRF','ca','Garraf');
 	this.set_translates('SLL','ca','Sant Llorenç del Munt i l\'Obac');
+	this.set_translates('COL','ca','Collserola');
+	this.set_translates('MTQ','ca','Montesquiu');
+	this.set_translates('OLE','ca','Olèrdola');
 	
 	//groupby_species_by_protectioncatalog
 	this.set_translates('E','ca','En perill');
