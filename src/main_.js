@@ -11,7 +11,6 @@ function main_()
 {
 	//create_page();
 
-
 	mapa_sefa_localitats_quadricula();
 
 	graphs.graph_by_method();
@@ -47,4 +46,3 @@ function main_()
 	graphs.graph_by_anual_surveyed_localities();
 	
 } // Fi de main_()
-

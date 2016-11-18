@@ -1,4 +1,5 @@
 
+
 var sd_localitatscensadesany = [{"IDMOSTREIG":"COL_Asplae_1_2015-05-23","DATE":"23/05/2015"},
 {"IDMOSTREIG":"COL_Asplae_1_2016-05-28","DATE":"28/05/2016"},
 {"IDMOSTREIG":"COL_Aspsep_1_2014-04-09","DATE":"09/04/2014"},

@@ -1,4 +1,5 @@
 
+
 var sd_impactesamenaces = [{"GRUP":"Impactes","PARAMETRE":"1. Canvi climàtic","DATA":2009,"VALOR":0},
 {"GRUP":"Impactes","PARAMETRE":"1. Canvi climàtic","DATA":2010,"VALOR":0},
 {"GRUP":"Impactes","PARAMETRE":"1. Canvi climàtic","DATA":2011,"VALOR":0},

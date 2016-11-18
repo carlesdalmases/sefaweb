@@ -1,4 +1,5 @@
 
+
 var sd_tesaurus = [{"ESPECIE":"Aira praecox","CATEGORIA":"EIC","CFAC":"0"},
 {"ESPECIE":"Allium pyrenaicum","CATEGORIA":"EIC","CFAC":"V"},
 {"ESPECIE":"Arenaria fontqueri ssp. cavanillesiana","CATEGORIA":"EICP2","CFAC":"V"},

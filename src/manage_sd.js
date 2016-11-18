@@ -16,7 +16,7 @@ MANAGE_SD.prototype.get_unique_protected_areas = function(){
 	
 	//Ordeno l'array de codis únics segons l'ordre que vol el David. Si un codi no apareix a la llista
 	//de codis ordenats, s'afegeix al final. Si s'afegeix a les dades un parc nou, s'haurà d'actualizar el primer array!
-	return _.union(['GUI','MSY','SLL','MCO','SLI','SMA','GRF'],w);
+	return _.union(['MTQ','GUI','MSY','SLL','MCO','SLI','SMA','COL','GRF','OLE'],w);
 };
 
 
@@ -305,7 +305,6 @@ MANAGE_SD.prototype.get_groupby_species_by_num_locations_list = function (id_par
 	return _.orderBy(sps_locations, ['sp'], ['asc']);
 }; //get_groupby_species_by_num_locations_list
 
-/* ** */
 MANAGE_SD.prototype.get_groupby_species_by_num_census = function () {
 	return this.get_groupby_species_by_num_census_list();
 };
@@ -329,12 +328,11 @@ MANAGE_SD.prototype.get_groupby_species_by_num_census_list = function () {
 	return _.orderBy(sps_census, ['sp'], ['asc']);
 }; //get_groupby_species_by_num_locations_list
 
-MANAGE_SD.prototype.get_protectedarea_species_locations = function ()
-{return this.get_protectedarea_species_locations_list();};
+MANAGE_SD.prototype.get_protectedarea_species_locations = function (){
+	return this.get_protectedarea_species_locations_list();
+};
 
-
-MANAGE_SD.prototype.get_protectedarea_species_locations_list = function ()
-{
+MANAGE_SD.prototype.get_protectedarea_species_locations_list = function (){
 	function ALL_LOCATIONS (protectedarea, p_locations_total, p_locations_accumulated, specie, s_locations_total, s_locations_accumulated)
 	{
 		this.protectedarea = protectedarea;
@@ -553,7 +551,6 @@ MANAGE_SD.prototype.get_population_trend_by_park = function(id_park){
 	
 	return _.filter(this.get_population_trend(), function(w){return _.isEqual(w.PARK, id_park)});
 };
-
 
 MANAGE_SD.prototype.get_anual_surveyed_localities = function(){
 	

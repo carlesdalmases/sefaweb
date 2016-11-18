@@ -751,7 +751,6 @@ GRAPH_SEFA.prototype.graph_groupby_species_by_num_locations = function() {
 	return this.graph_groupby_species_by_num_locations_(manage_sd.get_groupby_species_by_num_locations());
 };
 
-
 GRAPH_SEFA.prototype.graph_groupby_species_by_num_locations_by_park = function() {
 	
 	_.forEach(manage_sd.get_unique_protected_areas(),function(w){
@@ -1120,7 +1119,7 @@ GRAPH_SEFA.prototype.graph_protectedarea_species_locations = function() {
 	var min_bar_width = 5;
 	var protectedarea_width = 10;
 	var gap = 5;
-	var sp_height = 15;
+	var sp_height = 11; //15
 	
 	//Data
 	var w = manage_sd.get_protectedarea_species_locations();
@@ -1316,6 +1315,13 @@ GRAPH_SEFA.prototype.graph_protectedarea_species_locations = function() {
 	svg.append("g")
 		.attr("class", "y_axis")
 		.call(yAxis)
+/*
+		.selectAll('text')
+		.style('font-family', 'sans-serif')
+		.style('font-size', '9px')
+		.style('fill', 'black')
+		.style('fill-opacity', '1')
+*/
 		;	
 
 
@@ -1328,7 +1334,7 @@ GRAPH_SEFA.prototype.graph_protectedarea_species_locations = function() {
 		.data(w.species_list)
 		.enter()
 		.append('rect')
-		.attr('height',bar_height_sp)
+		.attr('height',bar_height_sp+2) //2px de marge per tapar tota la label.
 		.attr({
 					'x':scaleX(0)-margin.left,
 					'y':function(d){return scaleY_sp(d.ESPECIE);}
@@ -2609,7 +2615,7 @@ GRAPH_SEFA.prototype.graph_by_population_trend_by_park = function(id_park,specie
 	        .text(_.capitalize(sefa_config.translates.get_translate(s_sp)));
 	}); //Fi de bucle per a totes els espècies dins d'un parc
 	
-}//Fi de graph_by_population_trend_by_park()
+};//Fi de graph_by_population_trend_by_park()
 
 GRAPH_SEFA.prototype.graph_by_population_trend = function(){
 	
@@ -2651,10 +2657,7 @@ GRAPH_SEFA.prototype.graph_by_population_trend = function(){
 
 		graphs.graph_by_population_trend_by_park(q.PARK, _.filter(d, function(w){return _.isEqual(w.PARK, q.PARK);}), defaults);
 	});
-}
-
-
-
+};
 
 GRAPH_SEFA.prototype.graph_by_anual_surveyed_localities = function(){
 

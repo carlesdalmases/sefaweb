@@ -1,1 +1,20 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script><script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script><link href="http://openlayers.org/en/v3.4.0/css/ol.css" rel="stylesheet" type="text/css" /><script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/2.2.1/proj4.js" type="text/javascript"></script><script src="http://www.icc.cat/extension/icc/design/icc/javascript/25831.js" type="text/javascript"></script><script src="http://openlayers.org/en/v3.4.0/build/ol.js" type="text/javascript"></script><script type="text/javascript" src="http://parcs.diba.cat/documents/43788175/77829719/sefa.js" charset="utf-8"></script><link href="http://parcs.diba.cat/documents/43788175/77829706/sefa.css" rel="stylesheet" type="text/css" /><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script><script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script><link href="http://openlayers.org/en/v3.4.0/css/ol.css" rel="stylesheet" type="text/css" /><script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/2.2.1/proj4.js" type="text/javascript"></script><script src="http://www.icc.cat/extension/icc/design/icc/javascript/25831.js" type="text/javascript"></script><script src="http://openlayers.org/en/v3.4.0/build/ol.js" type="text/javascript"></script><script type="text/javascript" src="http://parcs.diba.cat/documents/43788175/77829719/sefa.js" charset="utf-8"></script><link href="http://parcs.diba.cat/documents/43788175/77829706/sefa.css" rel="stylesheet" type="text/css" /><script>function info_toggle(div){$(div).parent().next('div').toggle();}</script><script>function info_button_blur(div){$(div).blur();}</script><style type="text/css">.info_text{border-color: rgb(221, 221, 221);border-width: 0.5px;border-style: solid;}</style><style type="text/css">.btn-default{font-size: x-small}	</style><script>$(document).ready(function(){main_();});</script>
+<script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/2.2.1/proj4.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://www.icc.cat/extension/icc/design/icc/javascript/25831.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://openlayers.org/en/v3.4.0/build/ol.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/async/2.1.2/async.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/regression/1.3.0/regression.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="http://parcs.diba.cat/documents/43788175/77829719/sefa_data.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8" src="http://parcs.diba.cat/documents/43788175/77829719/sefa.js" charset="utf-8"></script>
+
+
+<link href="http://openlayers.org/en/v3.4.0/css/ol.css" rel="stylesheet" type="text/css" />
+<link href="http://parcs.diba.cat/documents/43788175/77829706/sefa.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">.info_text{border-color: rgb(221, 221, 221);border-width: 0.5px;border-style: solid;}</style>
+<style type="text/css">.btn-default{font-size: x-small}	</style>
+<script>function info_toggle(div){$(div).parent().next('div').toggle();}</script><script>function info_button_blur(div){$(div).blur();}</script>
+<script>$(document).ready(function(){main_();});</script>

@@ -1,12 +1,4 @@
-type lodash.js > sefa.js
-type d3pie.min.js >> sefa.js
-type async-min.js >> sefa.js
-type regression.js >> sefa.js
-type data_tesaurus.js >> sefa.js
-type data_tendenciapobl.js >> sefa.js
-type data_localitatscensadesany.js >> sefa.js
-type data_impactesamenaces.js >> sefa.js
-type data.js >> sefa.js
+type d3pie.min.js > sefa.js
 type fishnet.js >> sefa.js
 type manage_sd.js >> sefa.js
 type create_page.js >> sefa.js
@@ -23,4 +15,15 @@ type mapa_sefa.js >> sefa.js
 type translate.js >> sefa.js
 type sefa_config.js >> sefa.js
 type main_.js >> sefa.js
+
+type data_tesaurus.js > sefa_data.js
+type data_tendenciapobl.js >> sefa_data.js
+type data_localitatscensadesany.js >> sefa_data.js
+type data_impactesamenaces.js >> sefa_data.js
+type data.js >> sefa_data.js
+
+REM type lodash.js > sefa.js
+REM type async-min.js >> sefa.js
+REM type regression.js >> sefa.js
+
 
