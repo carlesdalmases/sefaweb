@@ -1,0 +1,39 @@
+<div class='row'>
+	<div class='col-md-1'>
+		<button type='button' class='btn btn-default' onmouseover='info_toggle(this)' onmouseout='info_toggle(this)' onclick='info_button_blur(this)'>
+		  <span class='glyphicon glyphicon-info-sign' aria-hidden='true'></span>
+		</button>
+	</div>
+	<div class='col-md-11' style='display:none'>XXX</div>
+</div>
+
+
+
+
+<div class='row'>
+	<div class='col-md-1'>
+		<button type='button' class='btn btn-default' onmouseover='info_toggle(this)' onmouseout='info_toggle(this)' onclick='info_button_blur(this)'>
+			<span class='glyphicon glyphicon-info-sign' aria-hidden='true'></span>
+		</button>
+	</div>
+	<div class='col-md-11' style='display:none'>XXX</div>
+</div>
+
+
+
+
+
+<div class='row'>
+	<div class='col-md-1'>
+		<button type='button' class='btn btn-default' onmouseover='info_toggle(this)' onmouseout='info_toggle(this)' onclick='info_button_blur(this)'>
+			&#10067;
+		</button>
+	</div>
+	<div class='col-md-11 info_text' style='display:none'>XXX</div>
+</div>
+
+
+<script>function info_toggle(div){$(div).parent().next('div').toggle();}</script>
+<script>function info_button_blur(div){$(div).blur();}</script>
+<style type="text/css">.info_text{border-color: rgb(221, 221, 221);border-width: 0.5px;border-style: solid;}</style>
+<style type="text/css">.btn-default{font-size: x-small}</style>
