@@ -90,9 +90,43 @@ function create_page()
 						"<div id='sefa_graphs_threats_year_totals' class='col-md-12'></div>"+
 						"<div id='sefa_graphs_threats_year_series_button_totals' class='col-md-12'></div>"+
 					"</div> <!-- End row -->"+
+
+
 					"<div class='row'>"+
 						"<div id='sefa_graphs_population_trend_MCO_' class='col-md-12'></div>"+
 					"</div> <!-- End row -->"+
+					"<div class='row'>"+
+						"<div id='sefa_graphs_population_trend_SLL_' class='col-md-12'></div>"+
+					"</div> <!-- End row -->"+
+
+					"<div class='row'>"+
+						"<div id='sefa_graphs_population_trend_MSY_' class='col-md-12'></div>"+
+					"</div> <!-- End row -->"+
+
+					"<div class='row'>"+
+						"<div id='sefa_graphs_population_trend_GRF_' class='col-md-12'></div>"+
+					"</div> <!-- End row -->"+
+
+					"<div class='row'>"+
+						"<div id='sefa_graphs_population_trend_SLI_' class='col-md-12'></div>"+
+					"</div> <!-- End row -->"+
+
+					"<div class='row'>"+
+						"<div id='sefa_graphs_population_trend_SMA_' class='col-md-12'></div>"+
+					"</div> <!-- End row -->"+
+
+					"<div class='row'>"+
+						"<div id='sefa_graphs_population_trend_COL_' class='col-md-12'></div>"+
+					"</div> <!-- End row -->"+
+
+					"<div class='row'>"+
+						"<div id='sefa_graphs_population_trend_OLE_' class='col-md-12'></div>"+
+					"</div> <!-- End row -->"+
+
+					"<div class='row'>"+
+						"<div id='sefa_graphs_population_trend_MTQ_' class='col-md-12'></div>"+
+					"</div> <!-- End row -->"+
+
 					"<div class='row'>"+
 						"<div id='sefa_graphs_anual_surveyed_localities' class='col-md-12'></div>"+
 					"</div> <!-- End row -->"+

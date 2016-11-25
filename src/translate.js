@@ -120,6 +120,9 @@ TRANSLATES.prototype.load_translates = function()
 	this.set_translates('GUI','ca','Guilleries-Savassona');
 	this.set_translates('GRF','ca','Garraf');
 	this.set_translates('SLL','ca','Sant Llorenç del Munt i l\'Obac');
+	this.set_translates('COL','ca','Collserola');
+	this.set_translates('MTQ','ca','Montesquiu');
+	this.set_translates('OLE','ca','Olèrdola');
 	
 	//groupby_species_by_protectioncatalog
 	this.set_translates('E','ca','En perill');
@@ -169,22 +172,34 @@ TRANSLATES.prototype.load_translates = function()
 	this.set_translates('17. Freqüentació','ca','Freqüentació');
 	this.set_translates('18. Altres','ca','Altres');
 
+	this.set_translates('Aegpod','ca','Aegopodium podagraria');
+	this.set_translates('Arclap','ca','Arctium lappa');
 	this.set_translates('Arecav','ca','Arenaria fontqueri ssp. cavanillesiana');
 	this.set_translates('Arisim','ca','Arisarum simorrhinum var. simorrhinum');
+	this.set_translates('Asplae','ca','Asperula laevigata');
+	this.set_translates('Aspsep','ca','Asplenium septentrionale');
 	this.set_translates('Botmat','ca','Botrychium matricariifolium');
+	this.set_translates('Brarob','ca','Brassica oleracea ssp. robertiana');
 	this.set_translates('Caramp','ca','Cardamine amporitana');
 	this.set_translates('Cardep','ca','Carex depauperata');
 	this.set_translates('Carvir','ca','Carex flava ssp. viridula');
 	this.set_translates('Cargri','ca','Carex grioletii');
 	this.set_translates('Carpra','ca','Carex praecox');
+	this.set_translates('Carcer','ca','Carpesium cernuum');
+	this.set_translates('Cenhan','ca','Centaurea paniculata spp. hanrii');
+	this.set_translates('Chahum','ca','Chamaerops humilis');
 	this.set_translates('Chetin','ca','Cheilanthes tinaei');
 	this.set_translates('Cicfil','ca','Cicendia filiformis');
+	this.set_translates('Ciscri','ca','Cistus crispus');
+	this.set_translates('Cislad','ca','Cistus ladanifer');
 	this.set_translates('Coevir','ca','Coeloglossum viride');
 	this.set_translates('Consic','ca','Convolvulus siculus');
 	this.set_translates('Cosvel','ca','Cosentinia vellea');
 	this.set_translates('Delbol','ca','Delphinium bolosii');
 	this.set_translates('Dicalb','ca','Dictamnus albus');
 	this.set_translates('Digobs','ca','Digitalis obscura');
+	this.set_translates('Dippil','ca','Dipsacus pilosus');
+	this.set_translates('Epiaph','ca','Epipogium aphyllum');
 	this.set_translates('Equhye','ca','Equisetum hyemale');
 	this.set_translates('Ericin','ca','Erica cinerea');
 	this.set_translates('Eupdul','ca','Euphorbia dulcis ssp. dulcis');
@@ -192,19 +207,27 @@ TRANSLATES.prototype.load_translates = function()
 	this.set_translates('Gymdry','ca','Gymnocarpium dryopteris');
 	this.set_translates('Halhal','ca','Halimium halimifolium');
 	this.set_translates('Hyppul','ca','Hypericum pulchrum');
+	this.set_translates('Ileaqu','ca','Ilex aquifolium');
 	this.set_translates('Isodur','ca','Isoetes durieui');
 	this.set_translates('Latsqu','ca','Lathraea squamaria');
 	this.set_translates('Latcir','ca','Lathyrus cirrhosus');
 	this.set_translates('Lavolb','ca','Lavatera olbia');
 	this.set_translates('Lilmar','ca','Lilium martagon');
-	this.set_translates('Lonnig','ca','Lonicera nigra');	
+	this.set_translates('Limgir','ca','Limonium girardianum');
+	this.set_translates('Lonnig','ca','Lonicera nigra');
+	this.set_translates('Lycsel','ca','Lycopodium selago');
 	this.set_translates('Melcat','ca','Melampyrum catalaunicum');
 	this.set_translates('Melnut','ca','Melica nutans');
 	this.set_translates('Nardub','ca','Narcissus dubius');
+	this.set_translates('Orcmaj','ca','Orchis majalis');
+	this.set_translates('Oroict','ca','Orobanche elatior ssp. icterica');
+	this.set_translates('Osmreg','ca','Osmunda regalis');
 	this.set_translates('Peuoff','ca','Peucedanum officinale');
 	this.set_translates('Phepur','ca','Phelipanche purpurea');
 	this.set_translates('Pinvul','ca','Pinguicula vulgaris');
+	this.set_translates('Polver','ca','Polygonatum verticillatum');
 	this.set_translates('Polbis','ca','Polygonum bistorta');
+	this.set_translates('Potnat','ca','Potamogeton natans');
 	this.set_translates('Potmon','ca','Potentilla montana');
 	this.set_translates('Potpyr','ca','Potentilla pyrenaica');
 	this.set_translates('Prulus','ca','Prunus lusitanica');
@@ -215,13 +238,20 @@ TRANSLATES.prototype.load_translates = function()
 	this.set_translates('Saxvay','ca','Saxifraga vayredana');
 	this.set_translates('Selden','ca','Selaginella denticulata');
 	this.set_translates('Servom','ca','Serapias vomeracea');
+	this.set_translates('Silmut','ca','Silene mutabilis');
 	this.set_translates('Silvir','ca','Silene viridiflora');
+	this.set_translates('Spipar','ca','Spiraea crenata ssp. parvifolia');
 	this.set_translates('Spiaes','ca','Spiranthes aestivalis');
+	this.set_translates('Stapal','ca','Stachys palustris');
+	this.set_translates('Stramp','ca','Streptopus amplexifolius');
 	this.set_translates('Sucbal','ca','Succowia balearica');
+	this.set_translates('Tamafr','ca','Tamarix africana');
 	this.set_translates('Taxbac','ca','Taxus bacatta');
 	this.set_translates('Viobub','ca','Viola bubanii');
 	this.set_translates('Viocat','ca','Viola suavis ssp. catalonica');
 	this.set_translates('Vitagn','ca','Vitex agnus-castus');
+	this.set_translates('Vitsyl','ca','Vitis vinifera ssp. sylvestris');
+
 
 
 }; //Fi de load_translates
