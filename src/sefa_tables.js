@@ -108,6 +108,10 @@ SEFA_TABLES.prototype.table_species_by_protectionlevel_protectioncatalog_list = 
 	);
 
 	_.forEach(list, function(q){
+
+		//Change text 'No catalogades' to 'No catalogada'
+		q.protectioncatalog = (q.protectioncatalog==sefa_config.translates.get_translate('nopresent')?sefa_config.translates.get_translate('nopresent_'):q.protectioncatalog);
+
 		$newtable.append('<tr ' + (q.protectionlevel=='EICP1'?'class=danger': (q.protectionlevel=='EICP2'?'class=warning':  (q.protectionlevel=='EIC'?'class=info':''))  ) +'>'+
 				'<td class=\'specie\'>'+q.sp+'</td>'+
 				'<td class=\'specie\'>'+q.protectionlevel+'</td>'+
