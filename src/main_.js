@@ -9,8 +9,6 @@ var tables = new SEFA_TABLES();
 	
 function main_()
 {
-	//create_page();
-
 	mapa_sefa_localitats_quadricula();
 
 	graphs.graph_by_method();
