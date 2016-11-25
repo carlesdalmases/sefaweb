@@ -129,6 +129,8 @@ TRANSLATES.prototype.load_translates = function()
 	this.set_translates('V','ca','Vulnerable');
 	//this.set_translates('nopresent','ca','No present');
 	this.set_translates('nopresent','ca','No catalogades');
+	this.set_translates('nopresent_','ca','No catalogada');
+	
 
 	//Tables
 	this.set_translates('sefa_table_species_by_protectioncatalog_list_heading','ca','Llistat d\'espècies per categories CFAC');
